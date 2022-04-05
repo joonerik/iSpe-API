@@ -1,0 +1,156 @@
+[
+    {
+        "id": 205054,
+        "name": "Torjus Odegaard",
+        "config": {
+            "answering": {
+                "yes_no": {
+                    "enabled": true,
+                    "icon": false
+                },
+                "slider": {
+                    "enabled": true
+                },
+                "voice_recording": {
+                    "enabled": false
+                },
+                "digital_clock": false
+            },
+            "question": {
+                "text_to_speech": true
+            }
+        }
+    },
+    {
+        "id": 123456,
+        "name": "Robin Lund Sadun",
+        "config": {
+            "answering": {
+                "yes_no": {
+                    "enabled": true,
+                    "icon": false
+                },
+                "slider": {
+                    "enabled": true
+                },
+                "voice_recording": {
+                    "enabled": false
+                },
+                "digital_clock": false
+            },
+            "question": {
+                "text_to_speech": true
+            }
+        }
+    },
+    {
+        "id": 539288,
+        "name": "Joon-Erik Sæther",
+        "config": {
+            "answering": {
+                "yes_no": {
+                    "enabled": true,
+                    "icon": true
+                },
+                "slider": {
+                    "enabled": true
+                },
+                "voice_recording": {
+                    "enabled": true
+                },
+                "digital_clock": true
+            },
+            "question": {
+                "text_to_speech": true
+            }
+        }
+    },
+    {
+        "id": 725393,
+        "name": "Åshild Tenold Fridtun",
+        "config": {
+            "answering": {
+                "yes_no": {
+                    "enabled": true,
+                    "icon": true
+                },
+                "slider": {
+                    "enabled": true
+                },
+                "voice_recording": {
+                    "enabled": true
+                },
+                "digital_clock": true
+            },
+            "question": {
+                "text_to_speech": true
+            }
+        }
+    },
+    {
+        "id": 182330,
+        "name": "Ivar Hembre",
+        "config": {
+            "answering": {
+                "yes_no": {
+                    "enabled": true,
+                    "icon": true
+                },
+                "slider": {
+                    "enabled": true
+                },
+                "voice_recording": {
+                    "enabled": true
+                },
+                "digital_clock": true
+            },
+            "question": {
+                "text_to_speech": true
+            }
+        }
+    },
+    {
+        "id": 751992,
+        "name": "Anders Robstad",
+        "config": {
+            "answering": {
+                "yes_no": {
+                    "enabled": true,
+                    "icon": true
+                },
+                "slider": {
+                    "enabled": true
+                },
+                "voice_recording": {
+                    "enabled": true
+                },
+                "digital_clock": true
+            },
+            "question": {
+                "text_to_speech": true
+            }
+        }
+    },
+    {
+        "id": 612885,
+        "name": "Endre Gilje-Sørnes",
+        "config": {
+            "answering": {
+                "yes_no": {
+                    "enabled": true,
+                    "icon": true
+                },
+                "slider": {
+                    "enabled": true
+                },
+                "voice_recording": {
+                    "enabled": true
+                },
+                "digital_clock": true
+            },
+            "question": {
+                "text_to_speech": true
+            }
+        }
+    }
+]

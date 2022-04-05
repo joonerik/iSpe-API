@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "parentID": null,
+    "order": 1,
+    "group": "morningQuestions",
+    "type": "boolean",
+    "text": "Var det vanskelig å sovne?",
+    "subQuestions": [
+      {
+        "id": 2,
+        "parentID": 1,
+        "order": null,
+        "group": "morningQuestions",
+        "type": "clock",
+        "text": "Når la du deg i sengen?",
+        "subQuestions": null
+      },
+      {
+        "id": 3,
+        "parentID": 1,
+        "order": null,
+        "group": "morningQuestions",
+        "type": "clock",
+        "text": "Når slukket du lyset for å sovne?",
+        "subQuestions": null
+      },
+      {
+        "id": 4,
+        "parentID": 1,
+        "order": null,
+        "group": "morningQuestions",
+        "type": "minutes",
+        "text": "Hvor lang tid tok det før du sovnet?",
+        "subQuestions": null
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "parentID": null,
+    "order": 2,
+    "group": "morningQuestions",
+    "type": "boolean",
+    "text": "Sov du urolig i natt?",
+    "subQuestions": [
+      {
+        "id": 6,
+        "parentID": 5,
+        "order": null,
+        "group": "morningQuestions",
+        "type": "minutes",
+        "text": "Hvor lenge var du våken i natt?",
+        "subQuestions": null
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "parentID": null,
+    "order": 3,
+    "group": "morningQuestions",
+    "type": "boolean",
+    "text": "Våknet du for tidlig?",
+    "subQuestions": [
+      {
+        "id": 8,
+        "parentID": 7,
+        "order": null,
+        "group": "morningQuestions",
+        "type": "clock",
+        "text": "Når våknet du?",
+        "subQuestions": null
+      },
+      {
+        "id": 9,
+        "parentID": 7,
+        "order": null,
+        "group": "morningQuestions",
+        "type": "clock",
+        "text": "Når ønsket du å våkne?",
+        "subQuestions": null
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "parentID": null,
+    "order": 4,
+    "group": "morningQuestions",
+    "type": "clock",
+    "text": "Når stod du opp i dag?",
+    "subQuestions": null
+  },
+  {
+    "id": 11,
+    "parentID": null,
+    "order": 5,
+    "group": "morningQuestions",
+    "type": "boolean",
+    "text": "Tok du sovemedisin i går?",
+    "subQuestions": null
+  },
+  {
+    "id": 12,
+    "parentID": null,
+    "order": 1,
+    "group": "afternoonQuestions",
+    "type": "boolean",
+    "text": "Har du vært trøtt i dag?",
+    "subQuestions": [
+      {
+        "id": 13,
+        "parentID": 12,
+        "order": null,
+        "group": "afternoonQuestions",
+        "type": "slider",
+        "text": "Hvor mye trøtt?",
+        "subQuestions": null
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "parentID": null,
+    "order": 2,
+    "group": "afternoonQuestions",
+    "type": "boolean",
+    "text": "Har du hatt dårlig humør i dag?",
+    "subQuestions": [
+      {
+        "id": 15,
+        "parentID": 14,
+        "order": null,
+        "group": "afternoonQuestions",
+        "type": "slider",
+        "text": "Hvor dårlig humør?",
+        "subQuestions": null
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "parentID": null,
+    "order": 3,
+    "group": "afternoonQuestions",
+    "type": "boolean",
+    "text": "Har du hatt problemer med å huske ting i dag?",
+    "subQuestions": [
+      {
+        "id": 17,
+        "parentID": 16,
+        "order": null,
+        "group": "afternoonQuestions",
+        "type": "slider",
+        "text": "Hvordan?",
+        "subQuestions": null
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "parentID": null,
+    "order": 4,
+    "group": "afternoonQuestions",
+    "type": "boolean",
+    "text": "Har du hatt problemer med å følge med på ting i dag?",
+    "subQuestions": [
+      {
+        "id": 19,
+        "parentID": 18,
+        "order": null,
+        "group": "afternoonQuestions",
+        "type": "slider",
+        "text": "Hvordan?",
+        "subQuestions": null
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "parentID": null,
+    "order": 5,
+    "group": "afternoonQuestions",
+    "type": "boolean",
+    "text": "Har du hatt problemer med aktiviteter i dag?",
+    "subQuestions": [
+      {
+        "id": 21,
+        "parentID": 20,
+        "order": null,
+        "group": "afternoonQuestions",
+        "type": "slider",
+        "text": "Hvordan?",
+        "subQuestions": null
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "parentID": null,
+    "order": 6,
+    "group": "afternoonQuestions",
+    "type": "boolean",
+    "text": "Har du hatt generelt ubehag på grunn av søvnproblemene i dag?",
+    "subQuestions": [
+      {
+        "id": 23,
+        "parentID": 22,
+        "order": null,
+        "group": "afternoonQuestions",
+        "type": "slider",
+        "text": "Hvordan?",
+        "subQuestions": null
+      }
+    ]
+  }
+]
