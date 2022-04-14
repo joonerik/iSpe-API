@@ -31,8 +31,7 @@ def answers(user_id):
         new_answer = request.get_json()
         config_data = json.loads(open(f'answers/{user_id}.json', 'rb').read())
         # Add the new answer from POST to current JSON
-        # config_data["answers"].append(new_answer)
-        config_data.update(new_answer)
+        config_data["data"].append(new_answer)
         with open(f'answers/{user_id}.json', 'w', encoding='utf-8') as f:
             json.dump(config_data, f, ensure_ascii=False, indent=4)
         return f"Data for {user_id} updated!"
