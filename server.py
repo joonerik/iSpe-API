@@ -39,19 +39,19 @@ def export(user_id):
     
     # Counter variable used for writing
     # headers to the CSV file
+    header = ["ID", "Tekst", "Svar", "Dato", "Spørsmålsgruppe"]
+    csv_writer.writerow(header)
     for session in data:
-        header = ["ID", "Tekst", "Svar", "Dato", "Spørsmålsgruppe"]
-        csv_writer.writerow(header)
-        # print(str(answer.keys()))
-        # print(str(answer.values()))
-        print(session)
-        print("\n")
-        for answer in session:
-            print(answer)
-        #     csv_writer.writerow(answer)
-        # Writing data of CSV file
-        # csv_writer.writerow(session.values())
-    
+        date = session.get("date")
+        question_group = session.get("questionGroup")
+        for answer in session.get("answers"):
+            print(answer.get("value"))
+            print(answer.values())
+            answer["date"] = date
+            answer["questionGroup"] = question_group
+            csv_writer.writerow(answer.values())
+
+
     data_file.close()
     return send_from_directory('csvs/', f'{user_id}.csv', as_attachment=True)
 
