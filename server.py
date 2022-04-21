@@ -3,6 +3,8 @@ import random
 import json
 from flask import jsonify
 from flask import request
+from flask import send_from_directory
+import csv
 
 app = flask.Flask(__name__)
 # app.config["DEBUG"] = True
@@ -18,8 +20,40 @@ def get():
     <h3>GET /config/user_id</h3>
     <h3>GET /login/user_id</h3>
     <h3>POST /register</h3>
+    <h3>GET /export/user_id</h3>
     '''
 
+@app.route('/export/<user_id>', methods=['GET'])
+def export(user_id):
+
+    with open(f'answers/{user_id}.json') as json_file:
+        file = json.load(json_file)
+    
+    data = file['data']
+    
+    # now we will open a file for writing
+    data_file = open(f'csvs/{user_id}.csv', 'w')
+    
+    # create the csv writer object
+    csv_writer = csv.writer(data_file)
+    
+    # Counter variable used for writing
+    # headers to the CSV file
+    for session in data:
+        header = ["ID", "Tekst", "Svar", "Dato", "Spørsmålsgruppe"]
+        csv_writer.writerow(header)
+        # print(str(answer.keys()))
+        # print(str(answer.values()))
+        print(session)
+        print("\n")
+        for answer in session:
+            print(answer)
+        #     csv_writer.writerow(answer)
+        # Writing data of CSV file
+        # csv_writer.writerow(session.values())
+    
+    data_file.close()
+    return send_from_directory('csvs/', f'{user_id}.csv', as_attachment=True)
 
 @app.route('/answers/<user_id>', methods=['GET', 'POST'])
 def answers(user_id):
