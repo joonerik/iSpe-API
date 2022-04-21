@@ -1,0 +1,22 @@
+{
+  "config": {
+    "answering": {
+      "digital_clock": false,
+      "slider": {
+        "enabled": true
+      },
+      "voice_recording": {
+        "enabled": false
+      },
+      "yes_no": {
+        "enabled": true,
+        "icon": false
+      }
+    },
+    "question": {
+      "text_to_speech": true
+    }
+  },
+  "id": 205054,
+  "name": "Torjus Odegaard"
+}
