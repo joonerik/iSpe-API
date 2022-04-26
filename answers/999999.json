@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "answers": [
+        {
+          "question_ID": 1,
+          "text": "Var det vanskelig å sovne i går kveld?",
+          "value": "Ja"
+        },
+        {
+          "question_ID": 2,
+          "text": "Når la du deg for å sove?",
+          "value": "10:10"
+        },
+        {
+          "question_ID": 3,
+          "text": "Hvor lang tid tok det før du sovnet?",
+          "value": "0 min"
+        },
+        {
+          "question_ID": 4,
+          "text": "Sov du urolig i natt?",
+          "value": "Ja"
+        },
+        {
+          "question_ID": 5,
+          "text": "Var det vanskelig å sovne igjen?",
+          "value": "Ja"
+        },
+        {
+          "question_ID": 6,
+          "text": "Våknet du tidligere enn du ønsket i dag?",
+          "value": "Ja"
+        },
+        {
+          "question_ID": 7,
+          "text": "Når våknet du?",
+          "value": "10:10"
+        },
+        {
+          "question_ID": 8,
+          "text": "Tok du sovemedisin i går?",
+          "value": "Ja"
+        },
+        {
+          "question_ID": 9,
+          "text": "Hvor godt eller dårlig sov du i natt?",
+          "value": "Dårlig"
+        }
+      ],
+      "date": "21/04/22 09:37",
+      "questionGroup": "morningQuestions"
+    },
+    {
+      "answers": [
+        {
+          "question_ID": 10,
+          "text": "Har du vært trøtt i dag?",
+          "value": "Litt"
+        },
+        {
+          "question_ID": 11,
+          "text": "Har det vært vanskelig å tenke klart i dag?",
+          "value": "Litt"
+        },
+        {
+          "question_ID": 12,
+          "text": "Har du hatt generelt ubehag i dag?",
+          "value": "Litt"
+        },
+        {
+          "question_ID": 13,
+          "text": "Har du hatt dårlig humør i dag?",
+          "value": "Deprimert"
+        }
+      ],
+      "date": "21/04/22 09:38",
+      "questionGroup": "afternoonQuestions"
+    }
+  ],
+  "patientID": 999999
+}
