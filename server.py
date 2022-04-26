@@ -47,6 +47,8 @@ def export(user_id):
         for answer in session.get("answers"):
             print(answer.get("value"))
             print(answer.values())
+            print("aaabbb ", answer.get("text"))
+            print("ccccdddd ", answer.get("text").values())
             answer["date"] = date
             answer["questionGroup"] = question_group
             csv_writer.writerow(answer.values())
